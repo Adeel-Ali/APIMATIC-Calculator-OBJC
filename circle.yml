@@ -1,0 +1,10 @@
+machine:
+  xcode:
+    version: 7.3
+  environment:
+    XCODE_WORKSPACE: APIMATICCalculator.xcworkspace
+    XCODE_SCHEME: APIMATICCalculator
+
+dependencies:
+  override:   
+   - pod install
